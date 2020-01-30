@@ -10,7 +10,7 @@
 
 	<properties>
 		<spring.version>5.0.2.RELEASE</spring.version>
-		<spring-data.version>Kay-SR2</spring-data.version>
+		<spring-data.version>1.4.6.RELEASE</spring-data.version>
 	</properties>
 
 	<dependencyManagement>
