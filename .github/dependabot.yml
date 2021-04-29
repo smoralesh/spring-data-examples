@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.springframework:spring-framework-bom
+    versions:
+    - 5.3.3
+    - 5.3.4
+    - 5.3.5
+  - dependency-name: org.eclipse.persistence:org.eclipse.persistence.jpa
+    versions:
+    - 3.0.0
+  - dependency-name: org.apache.cassandra:cassandra-all
+    versions:
+    - 3.11.9
+  - dependency-name: io.reactivex.rxjava2:rxjava
+    versions:
+    - 2.2.20
+  - dependency-name: org.webjars:jquery
+    versions:
+    - 3.5.1
